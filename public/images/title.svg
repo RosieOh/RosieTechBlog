@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
+  <!-- "Rosie's Tech Note" 텍스트 -->
+  <text x="10" y="50" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="darkslategray">
+    Rosie's
+  </text>
+  
+  <!-- "Tech Note" 텍스트 -->
+  <text x="150" y="50" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="teal">
+    Tech Note
+  </text>
+</svg>

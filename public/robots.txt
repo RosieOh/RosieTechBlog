@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rosiesblog.vercel.app
+
+# Sitemaps
+Sitemap: https://rosiesblog.vercel.app/sitemap.xml
