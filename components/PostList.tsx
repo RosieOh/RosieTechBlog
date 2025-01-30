@@ -1,5 +1,5 @@
+import BlogPost from '@/components/blogPost/BlogPost';
 import { Post } from 'contentlayer/generated';
-import BlogPost from '@/components/BlogPost';
 
 interface RecentPostsProps {
   posts: Post[];
