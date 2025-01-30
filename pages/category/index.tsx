@@ -1,4 +1,4 @@
-import CategoryList from '@/components/CategoryList';
+import CategoryList from '@/components/categoryList/CategoryList';
 import PostList from '@/components/PostList';
 import { Post, allPosts } from 'contentlayer/generated';
 import { GetStaticProps, InferGetStaticPropsType } from 'next';
