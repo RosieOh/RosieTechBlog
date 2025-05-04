@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
 body {
   background-color: #f0f0f0; /* 원하는 색상으로 변경 */
+  transition: background-color 0.4s;
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-[#181818] rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  .animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
 }
